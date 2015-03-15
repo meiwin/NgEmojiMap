@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCFC4E041AB54CDC00CD1A8C /* libNgEmojiMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFC4DF81AB54CDC00CD1A8C /* libNgEmojiMap.a */; };
+		DCFC4E141AB54CF100CD1A8C /* NgEmojiMap.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFC4E131AB54CF100CD1A8C /* NgEmojiMap.m */; };
+		DCFC4E191AB5539700CD1A8C /* NgEmojiMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFC4E181AB5539700CD1A8C /* NgEmojiMapTests.m */; };
+		DCFC4E1A1AB5581100CD1A8C /* NgEmojiMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCFC4E171AB5537100CD1A8C /* NgEmojiMap.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCFC4E051AB54CDC00CD1A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFC4DF01AB54CDC00CD1A8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFC4DF71AB54CDC00CD1A8C;
+			remoteInfo = NgEmojiMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCFC4DF61AB54CDC00CD1A8C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DCFC4DF81AB54CDC00CD1A8C /* libNgEmojiMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNgEmojiMap.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFC4E031AB54CDC00CD1A8C /* NgEmojiMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NgEmojiMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFC4E091AB54CDC00CD1A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFC4E121AB54CF100CD1A8C /* NgEmojiMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NgEmojiMap.h; sourceTree = "<group>"; };
+		DCFC4E131AB54CF100CD1A8C /* NgEmojiMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NgEmojiMap.m; sourceTree = "<group>"; };
+		DCFC4E171AB5537100CD1A8C /* NgEmojiMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NgEmojiMap.bundle; sourceTree = "<group>"; };
+		DCFC4E181AB5539700CD1A8C /* NgEmojiMapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NgEmojiMapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFC4DF51AB54CDC00CD1A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC4E001AB54CDC00CD1A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC4E041AB54CDC00CD1A8C /* libNgEmojiMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCFC4DEF1AB54CDC00CD1A8C = {
+			isa = PBXGroup;
+			children = (
+				DCFC4DFA1AB54CDC00CD1A8C /* NgEmojiMap */,
+				DCFC4E071AB54CDC00CD1A8C /* NgEmojiMapTests */,
+				DCFC4DF91AB54CDC00CD1A8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFC4DF91AB54CDC00CD1A8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4DF81AB54CDC00CD1A8C /* libNgEmojiMap.a */,
+				DCFC4E031AB54CDC00CD1A8C /* NgEmojiMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFC4DFA1AB54CDC00CD1A8C /* NgEmojiMap */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4E121AB54CF100CD1A8C /* NgEmojiMap.h */,
+				DCFC4E131AB54CF100CD1A8C /* NgEmojiMap.m */,
+				DCFC4E171AB5537100CD1A8C /* NgEmojiMap.bundle */,
+			);
+			path = NgEmojiMap;
+			sourceTree = "<group>";
+		};
+		DCFC4E071AB54CDC00CD1A8C /* NgEmojiMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4E081AB54CDC00CD1A8C /* Supporting Files */,
+				DCFC4E181AB5539700CD1A8C /* NgEmojiMapTests.m */,
+			);
+			path = NgEmojiMapTests;
+			sourceTree = "<group>";
+		};
+		DCFC4E081AB54CDC00CD1A8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4E091AB54CDC00CD1A8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFC4DF71AB54CDC00CD1A8C /* NgEmojiMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFC4E0C1AB54CDC00CD1A8C /* Build configuration list for PBXNativeTarget "NgEmojiMap" */;
+			buildPhases = (
+				DCFC4DF41AB54CDC00CD1A8C /* Sources */,
+				DCFC4DF51AB54CDC00CD1A8C /* Frameworks */,
+				DCFC4DF61AB54CDC00CD1A8C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NgEmojiMap;
+			productName = NgEmojiMap;
+			productReference = DCFC4DF81AB54CDC00CD1A8C /* libNgEmojiMap.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCFC4E021AB54CDC00CD1A8C /* NgEmojiMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFC4E0F1AB54CDC00CD1A8C /* Build configuration list for PBXNativeTarget "NgEmojiMapTests" */;
+			buildPhases = (
+				DCFC4DFF1AB54CDC00CD1A8C /* Sources */,
+				DCFC4E001AB54CDC00CD1A8C /* Frameworks */,
+				DCFC4E011AB54CDC00CD1A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFC4E061AB54CDC00CD1A8C /* PBXTargetDependency */,
+			);
+			name = NgEmojiMapTests;
+			productName = NgEmojiMapTests;
+			productReference = DCFC4E031AB54CDC00CD1A8C /* NgEmojiMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFC4DF01AB54CDC00CD1A8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Meiwin;
+				TargetAttributes = {
+					DCFC4DF71AB54CDC00CD1A8C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DCFC4E021AB54CDC00CD1A8C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = DCFC4DF31AB54CDC00CD1A8C /* Build configuration list for PBXProject "NgEmojiMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCFC4DEF1AB54CDC00CD1A8C;
+			productRefGroup = DCFC4DF91AB54CDC00CD1A8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFC4DF71AB54CDC00CD1A8C /* NgEmojiMap */,
+				DCFC4E021AB54CDC00CD1A8C /* NgEmojiMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFC4E011AB54CDC00CD1A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC4E1A1AB5581100CD1A8C /* NgEmojiMap.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFC4DF41AB54CDC00CD1A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC4E141AB54CF100CD1A8C /* NgEmojiMap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC4DFF1AB54CDC00CD1A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC4E191AB5539700CD1A8C /* NgEmojiMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCFC4E061AB54CDC00CD1A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFC4DF71AB54CDC00CD1A8C /* NgEmojiMap */;
+			targetProxy = DCFC4E051AB54CDC00CD1A8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCFC4E0A1AB54CDC00CD1A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCFC4E0B1AB54CDC00CD1A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCFC4E0D1AB54CDC00CD1A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DCFC4E0E1AB54CDC00CD1A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DCFC4E101AB54CDC00CD1A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NgEmojiMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCFC4E111AB54CDC00CD1A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NgEmojiMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFC4DF31AB54CDC00CD1A8C /* Build configuration list for PBXProject "NgEmojiMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC4E0A1AB54CDC00CD1A8C /* Debug */,
+				DCFC4E0B1AB54CDC00CD1A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFC4E0C1AB54CDC00CD1A8C /* Build configuration list for PBXNativeTarget "NgEmojiMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC4E0D1AB54CDC00CD1A8C /* Debug */,
+				DCFC4E0E1AB54CDC00CD1A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCFC4E0F1AB54CDC00CD1A8C /* Build configuration list for PBXNativeTarget "NgEmojiMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC4E101AB54CDC00CD1A8C /* Debug */,
+				DCFC4E111AB54CDC00CD1A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCFC4DF01AB54CDC00CD1A8C /* Project object */;
+}
