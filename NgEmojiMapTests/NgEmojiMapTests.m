@@ -30,6 +30,9 @@
 {
   XCTAssertEqualObjects(@"😃", [[NgEmojiMap sharedInstance] emojiForAlias:@"smiley"]);
   XCTAssertEqualObjects(@"smiley", [[NgEmojiMap sharedInstance] aliasForEmoji:@"😃"]);
+  XCTAssertNotNil([[NgEmojiMap sharedInstance] emojiForAlias:@"thumbsup"]);
+  XCTAssertNotNil([[NgEmojiMap sharedInstance] emojiForAlias:@"+1"]);
+  
   BOOL isMember = [(@"😃") rangeOfCharacterFromSet:[[NgEmojiMap sharedInstance] characterSet]].location != NSNotFound;
   XCTAssert(isMember);
   isMember = [(@"a") rangeOfCharacterFromSet:[[NgEmojiMap sharedInstance] characterSet]].location != NSNotFound;
