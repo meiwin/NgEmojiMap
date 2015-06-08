@@ -46,18 +46,14 @@
   [emojis enumerateObjectsUsingBlock:^(NSDictionary * dict, NSUInteger idx, BOOL *stop) {
     NSString * unicode = dict[@"emoji"];
     if (!unicode) return;
-    [emojis enumerateObjectsUsingBlock:^(NSDictionary * dict, NSUInteger idx, BOOL *stop) {
-      NSString * unicode = dict[@"emoji"];
-      if (!unicode) return;
-      NSArray *aliases = dict[@"aliases"];
-      if (aliases.count == 0) return;
-      for (NSString *alias in aliases) {
-        if (!unicodeToAliasMapping[unicode]) {
-            unicodeToAliasMapping[unicode] = alias;
-        }
-        aliasToUnicodeMapping[alias] = unicode;
+    NSArray *aliases = dict[@"aliases"];
+    if (aliases.count == 0) return;
+    for (NSString *alias in aliases) {
+      if (!unicodeToAliasMapping[unicode]) {
+          unicodeToAliasMapping[unicode] = alias;
       }
-    }];
+      aliasToUnicodeMapping[alias] = unicode;
+    }
   }];
   
   _unicodeToAliasMapping = [unicodeToAliasMapping copy];
