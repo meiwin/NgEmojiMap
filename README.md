@@ -6,7 +6,7 @@ A simple objective-c class that encapsulates emoji-alias mapping (mapping from g
 
 ## Adding to your project
 
-If you are using Cocoapods, add to your Podfile:
+If you are using CocoaPods, add to your Podfile:
 
 ```ruby
 pod NgEmojiMap
